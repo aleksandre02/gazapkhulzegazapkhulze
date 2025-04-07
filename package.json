@@ -19,5 +19,8 @@
     "drizzle-orm": "^0.41.0",
     "pg": "^8.14.1",
     "postgres": "^3.4.5"
+  },
+  "overrides": {
+    "rollup": "npm:@rollup/wasm-node"
   }
 }
