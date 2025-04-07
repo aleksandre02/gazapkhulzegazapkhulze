@@ -48,6 +48,7 @@ export default defineEventHandler(async (event) => {
 
         return result[0];
     } catch (error) {
+
         console.error('Error incrementing clicks:', error);
         return { error: error.message };
     }
