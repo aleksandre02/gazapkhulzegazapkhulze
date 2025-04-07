@@ -6,5 +6,6 @@
     }
   ],
   "buildCommand": "npm install && npm run build",
-  "outputDirectory": ".output/public"
+  "outputDirectory": ".output/public",
+
 }
