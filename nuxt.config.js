@@ -4,5 +4,10 @@ export default defineNuxtConfig({
       url: process.env.POSTGRES_URL
     }
   },
-  compatibilityDate: "2025-04-07"
+  compatibilityDate: "2025-04-07",
+  nitro: {
+    output: {
+      dir: '.output'
+    }
+  }
 })

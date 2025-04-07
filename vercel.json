@@ -1,10 +1,18 @@
 {
+  "version": 2,
   "builds": [
     {
       "src": "nuxt.config.ts",
       "use": "@vercel/node"
     }
   ],
+  "routes": [
+    {
+      "src": "/(.*)",
+      "dest": "/"
+    }
+  ],
   "buildCommand": "pnpm install && pnpm build",
-  "outputDirectory": ".output"
+  "outputDirectory": ".output",
+  "framework": "nuxtjs"
 }
